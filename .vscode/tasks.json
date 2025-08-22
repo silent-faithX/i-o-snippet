@@ -2,12 +2,13 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "compile and run C",
+      "label": "build C",
       "type": "shell",
-      "command": "cmd.exe",
+      "command": "gcc",
       "args": [
-        "/c",
-        "gcc -std=c11 -o \"${fileBasenameNoExtension}\" \"${file}\" && .\\${fileBasenameNoExtension} < input.txt > output.txt"
+        "\"${file}\"",
+        "-o",
+        "\"${fileBasenameNoExtension}\""
       ],
       "group": {
         "kind": "build",
@@ -22,6 +23,17 @@
         "showReuseMessage": false,
         "clear": true
       }
+    },
+    {
+      "label": "run C",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        ".\\${fileBasenameNoExtension} < input.txt > output.txt"
+      ],
+      "dependsOn": "build C",
+      "problemMatcher": []
     }
   ]
 }
