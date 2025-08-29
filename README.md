@@ -23,8 +23,9 @@ Depending on your operating system, copy the appropriate file:
 
 ## Running the Code
 
-- Make-sure before doing the build the proccess your cursor upon the program file if cursor in another file the build proccess gives an error.
+- Makesure before doing the build proccess the program file should be selected if the cursor on another file the build proccess gives an error.
 
 - To build and run your code, press `Ctrl+Shift+B` in Visual Studio Code.
+
 
 This setup helps you easily manage input and output files while developing.
