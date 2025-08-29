@@ -1,10 +1,10 @@
-# C/C++ 3-Screen Window Setup
+# C++ 3-Screen Window Setup
 
-This project provides a 3-screen window setup for C/C++ programming:
+This json provides a build method for C++ programming:
 
 - **User Input:** Use the `input.txt` file to provide input to your program.
 - **Program Output:** The output of your program will be written to the `output.txt` file.
-- **Source Code:** Write your C or C++ code in the appropriate source file.
+- **Source Code:** Write your C++ code in the appropriate source file.
 
 ## Setting Up tasks.json
 
