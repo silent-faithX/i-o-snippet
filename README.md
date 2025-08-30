@@ -26,8 +26,9 @@ Depending on your operating system, copy the appropriate file:
 - Makesure before doing the build proccess the program file should be selected if the cursor on another file the build proccess gives an error.
 - To build and run your code, press `Ctrl+Shift+B` on Windows and `Cmd+Shift+B` on Mac in Visual Studio Code.
 - If the proccess takes to much time then something wrong in your code logic.
-- To exit the proccess just open the terminal and press `Ctrl+C` it will terminate the proccess.
+- To exit the proccess just open the terminal and press `Ctrl+C` on Windows and `Cmd+C` on Mac it will terminate the proccess.
 
 This setup helps you easily manage input and output files while developing.
+
 
 
